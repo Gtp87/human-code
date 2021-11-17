@@ -1,0 +1,28 @@
+SCANSIONARE UN DOCUMENTO SU PIU' FOGLI FRONTE-RETRO
+
+SE lo scanner è spento:
+    Accendo lo scanner
+
+SE il computer è spento:
+    Accendo il computer
+
+Prendo la pratica dall'archivio
+
+FINCHE' c'è un foglio:
+    FINCHE' lo scanner non da errore:
+        Prendo un foglio
+        Apro lo sportello dello scanner
+        Posiziono il foglio in corrispondenza dell'angolo in alto a sinistra
+        Chiudo lo sportello dello scanner
+        Scansiono il fronte del foglio
+        Apro lo sportello dello scanner
+        Posiziono il foglio in corrispondenza dell'angolo in alto a sinistra
+        Chiudo lo sportello dello scanner
+        Scansiono il retro del foglio
+        Apro lo sportello dello scanner
+    SE lo scanner da errore:
+        Riavvio lo scanner
+        Ricomincio la procedura
+ 
+Prendo il foglio e lo metto da parte (Lista scansionati)
+Al computer salvo il documento in formato .pdf
